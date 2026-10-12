@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header,
+main {
+    width: 550px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("../images/background.png");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-position: 34% 22.4%;
+    height: 208px;
+    color: #FFFFFF;
+}
+
+main {
+    height: 571px;
+    padding: 2.62em 2.75em 0;
+}
+
+.watchlist {
+    margin: 8.625em auto 0;
+    text-align: center;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchlist > p {
+    color: #DFDDDD;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 28.5px;
+}
+
+.add-movies-btn {
+    color: #363636;
+    background-color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-circle-plus {
+    font-size: 18px;
+    color: #363636;
+    margin-right: 0.38em;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5.125em;
+}
+
+h1 {
+    font-size: 2.62rem;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 1em;
+}
+
+.heading a {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 3.28em;
+}
+
+.watchlist-movie {
+    display: flex;
+    padding: 1.321em 0;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.poster {
+    width: 6.18em;
+    margin-right: 1.312em;
+    border-radius: 2.34px;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0.812em 0 0.625em;
+    height: 147px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+    color: #111827;
+}
+
+h2 {
+    font-size: 1.125rem;
+    color: #222222;
+    font-weight: 500;
+    margin: 0 8px 0 0;
+}
+
+.rating {
+    margin: 0 0 0 4px;
+}
+
+.rating,
+.genre,
+.time,
+.watchlist-btn {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.time {
+    margin: 0 19px 0 0;
+}
+
+.genre {
+    margin: 0 30px 0 0;
+}
+
+.plot {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #6B7280;
+    line-height: 20px;
+    margin: 0;
+    height: 60px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.fa-star {
+    color: #FEC654;
+    font-size: 11px;
+}
+
+.fa-circle-minus {
+    color: #111827;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.remove-btn {
+    background: none;
+    color: #111827;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}

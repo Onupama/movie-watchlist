@@ -16,7 +16,7 @@ searchBtn.addEventListener('click', () => {
     initialState.style.display = "none"
     const movieName = searchInput.value
     if(movieName) {
-        fetch(`http://www.omdbapi.com/?t=${movieName}&apikey=d33b141a`)
+        fetch(`https://www.omdbapi.com/?t=${movieName}&apikey=d33b141a`)
             .then(res => {
                 console.log(res)
                 if (!res.ok) {
